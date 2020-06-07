@@ -248,8 +248,8 @@
 		918242F5248D6FD3004F796C /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				918242FD248D7001004F796C /* Source */,
 				918242F6248D6FD3004F796C /* main.swift */,
+				918242FD248D7001004F796C /* Source */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -257,6 +257,7 @@
 		918242FD248D7001004F796C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				91824305248D7001004F796C /* conflicted */,
 				918242FE248D7001004F796C /* Divide Two Integers.swift */,
 				918242FF248D7001004F796C /* Diameter of Binary Tree.swift */,
 				91824300248D7001004F796C /* Max Consecutive Ones.swift */,
@@ -264,7 +265,6 @@
 				91824302248D7001004F796C /* Reorder List.swift */,
 				91824303248D7001004F796C /* Rotate Image.swift */,
 				91824304248D7001004F796C /* Fibonacci.swift */,
-				91824305248D7001004F796C /* gmacbook */,
 				91824310248D7001004F796C /* Next Permutation.swift */,
 				91824311248D7001004F796C /* 787. Cheapest Flights Within K Stops.swift */,
 				91824312248D7001004F796C /* BST.swift */,
@@ -353,7 +353,7 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		91824305248D7001004F796C /* gmacbook */ = {
+		91824305248D7001004F796C /* conflicted */ = {
 			isa = PBXGroup;
 			children = (
 				91824306248D7001004F796C /* Next Permutation.swift */,
@@ -366,7 +366,7 @@
 				9182430D248D7001004F796C /* Merge Two Sorted Lists.swift */,
 				9182430E248D7001004F796C /* Longest Palindromic Substring.swift */,
 			);
-			path = gmacbook;
+			path = conflicted;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
