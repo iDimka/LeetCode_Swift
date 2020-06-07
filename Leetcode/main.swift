@@ -8,5 +8,16 @@
 
 import Foundation
 
-print("Hello, World!")
+Subsets.test()
 
+extension String {
+  func charAt(_ index: Int) -> Character? {
+    guard index < count else { return nil }
+
+    return self[self.index(self.startIndex, offsetBy: index)]
+  }
+}
+
+extension Substring {
+  var stringValue: String { return String(self) }
+}
