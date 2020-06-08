@@ -99,6 +99,7 @@
 		918243BE248D701D004F796C /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824362248D7002004F796C /* QuickSort.swift */; };
 		918243BF248D701D004F796C /* Pancake Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824363248D7002004F796C /* Pancake Sorting.swift */; };
 		918243C0248D701D004F796C /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824364248D7002004F796C /* BFS.swift */; };
+		918243CC248E04EC004F796C /* Binary Tree Right Side View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918243CB248E04EC004F796C /* Binary Tree Right Side View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -216,6 +217,7 @@
 		91824362248D7002004F796C /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		91824363248D7002004F796C /* Pancake Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pancake Sorting.swift"; sourceTree = "<group>"; };
 		91824364248D7002004F796C /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		918243CB248E04EC004F796C /* Binary Tree Right Side View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Right Side View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +261,7 @@
 			children = (
 				91824305248D7001004F796C /* conflicted */,
 				918242FE248D7001004F796C /* Divide Two Integers.swift */,
+				918243CB248E04EC004F796C /* Binary Tree Right Side View.swift */,
 				918242FF248D7001004F796C /* Diameter of Binary Tree.swift */,
 				91824300248D7001004F796C /* Max Consecutive Ones.swift */,
 				91824301248D7001004F796C /* Max Consecutive Ones III 1004.swift */,
@@ -458,6 +461,7 @@
 				91824369248D701D004F796C /* Reorder List.swift in Sources */,
 				91824373248D701D004F796C /* Fruit Into Baskets.swift in Sources */,
 				918243A7248D701D004F796C /* Longest Valid Parentheses.swift in Sources */,
+				918243CC248E04EC004F796C /* Binary Tree Right Side View.swift in Sources */,
 				918243BE248D701D004F796C /* QuickSort.swift in Sources */,
 				91824389248D701D004F796C /* Product of Array Except Self.swift in Sources */,
 				91824393248D701D004F796C /* atoi.swift in Sources */,

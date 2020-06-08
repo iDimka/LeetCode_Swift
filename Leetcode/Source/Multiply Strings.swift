@@ -28,54 +28,56 @@ import Cocoa
  You must not use any built-in BigInteger library or convert the inputs to integer directly.
  */
 class Multiply_Strings: NSObject {
-  class Solution {
-      /*
-      123
-      123
-      ---
-      369
-     2460
-   012300
-    -----
-      */
-      func multiply(_ num1: String, _ num2: String) -> String {
-          let num1 = num1.map (String.init)
-          let num2 = num2.map (String.init)
-          var result = Array<Int>(repeating: 0, count: num1.count + num2.count)
-                  
-          
-          for (ind1, first) in num2.enumerated().reversed() {
-              print("------")
-              for (ind2, second) in num1.enumerated().reversed() {
-                  let (q, rem) = (second.intValue*first.intValue + result[ind1 + ind2 + 1]).quotientAndRemainder(dividingBy:10)
-                  // print("v: \(second.intValue * first.intValue)")
-                  result[ind1 + ind2 + 1] = rem
-                  result[ind1 + ind2]  = q + result[ind1 + ind2]
-                  
-                  // print("\(result) \(ind1):\(ind2) \(second.intValue * first.intValue)")
-              }
-          }
-              
-          while let leading = result.first, result.count > 1, leading == 0 {
-              result = Array(result.dropFirst())
-          }
-          
-          return result.map (String.init).joined(separator: "")
-      }
-  }
- 
   /*
-      123
-      456
-      ---
-      738
-     615
-    492
-    -----
-    56088
-  */
+   123
+   123
+   ---
+   369
+  2460
+012300
+   -----
+   */
+  func multiply(_ num1: String, _ num2: String) -> String {
+    let num1 = num1.map (String.init)
+    let num2 = num2.map (String.init)
+    var result = Array<Int>(repeating: 0, count: num1.count + num2.count)
+
+
+    for (ind1, first) in num2.enumerated().reversed() {
+      print("------")
+      for (ind2, second) in num1.enumerated().reversed() {
+        let (q, rem) = (second.intValue*first.intValue + result[ind1 + ind2 + 1]).quotientAndRemainder(dividingBy:10)
+        // print("v: \(second.intValue * first.intValue)")
+        result[ind1 + ind2 + 1] = rem
+        result[ind1 + ind2] = q + result[ind1 + ind2]
+
+        print("\(result) \(ind1):\(ind2) \(second.intValue * first.intValue)")
+      }
+    }
+
+    while let leading = result.first, result.count > 1, leading == 0 {
+      result = Array(result.dropFirst())
+    }
+
+    return result.map (String.init).joined(separator: "")
+  }
+
+  class func test() {
+    print(Multiply_Strings().multiply("123", "444"))
+  }
+
+  /*
+   123
+   456
+   ---
+   738
+   615
+   492
+   -----
+   56088
+   */
 }
 
 extension String {
-     var intValue: Int { return Int(self) ?? 0 }
- }
+  var intValue: Int { return Int(self) ?? 0 }
+}

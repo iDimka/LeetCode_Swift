@@ -23,6 +23,7 @@ class Flatten_Binary_Tree_to_Linked_List: NSObject {
     
     let leftTail = _flatten(node.left)
     let rightTail = _flatten(node.right)
+    print("< left: \(leftTail?.val ?? 0), node: \(node), right: \(rightTail?.val ?? 0)")
     // If there was a left subtree, we shuffle the connections
     // around so that there is nothing on the left side
     // anymore.
@@ -31,6 +32,8 @@ class Flatten_Binary_Tree_to_Linked_List: NSObject {
       node.right = node.left
       node.left = nil
     }
+
+    print(">\(node)")
     // We need to return the "rightmost" node after we are
     // done wiring the new connections.
     return rightTail ?? leftTail
@@ -39,6 +42,36 @@ class Flatten_Binary_Tree_to_Linked_List: NSObject {
   class func test() {
     let solution = Flatten_Binary_Tree_to_Linked_List()
     let input: [Int?] = [1,2,3,4,5,6,7]
+    /*
+
+          1
+        /   \
+       2     3
+      / \   / \
+     4   5 6   7
+-----------------------
+          1
+        /   \
+       2     3
+        \     \
+         4     6
+          \     \
+           5     7
+-----------------------
+            1
+          /
+         2
+          \
+           4
+            \
+             5
+              \
+               3
+                \
+                 6
+                  \
+                   7
+     */
     let tree = input.tree()
     print("Before: \(tree!)")
     solution.flatten(tree)

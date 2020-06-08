@@ -8,7 +8,7 @@
 
 import Foundation
 
-Subsets.test()
+Flatten_Binary_Tree_to_Linked_List.test()
 
 extension String {
   func charAt(_ index: Int) -> Character? {
