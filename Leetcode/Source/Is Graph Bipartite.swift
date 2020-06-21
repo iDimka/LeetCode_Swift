@@ -76,12 +76,7 @@ class Is_Graph_Bipartite: NSObject {
   }
 
   func dfs(_ graph: [[Int]], node: Int, color: Colors, visited: inout [Colors]) -> Bool {
-    if visited[node] != .uncolored {
-      let visitedColor = visited[node]
-      return visitedColor == color
-    } else {
-      visited[node] = color
-    }
+    guard visited[node] == .uncolored else { return visited[node] == color }
 
     visited[node] = color
 

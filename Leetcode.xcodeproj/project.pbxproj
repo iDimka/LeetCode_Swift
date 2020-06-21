@@ -100,6 +100,8 @@
 		918243BF248D701D004F796C /* Pancake Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824363248D7002004F796C /* Pancake Sorting.swift */; };
 		918243C0248D701D004F796C /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824364248D7002004F796C /* BFS.swift */; };
 		918243CC248E04EC004F796C /* Binary Tree Right Side View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918243CB248E04EC004F796C /* Binary Tree Right Side View.swift */; };
+		91BF90DF2496BC1900FE2746 /* Coins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF90DE2496BC1900FE2746 /* Coins.swift */; };
+		91DF616F2493103700AE11D0 /* Lowest Common Ancestor of a Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF616E2493103700AE11D0 /* Lowest Common Ancestor of a Binary Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -218,6 +220,8 @@
 		91824363248D7002004F796C /* Pancake Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pancake Sorting.swift"; sourceTree = "<group>"; };
 		91824364248D7002004F796C /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
 		918243CB248E04EC004F796C /* Binary Tree Right Side View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Right Side View.swift"; sourceTree = "<group>"; };
+		91BF90DE2496BC1900FE2746 /* Coins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coins.swift; sourceTree = "<group>"; };
+		91DF616E2493103700AE11D0 /* Lowest Common Ancestor of a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lowest Common Ancestor of a Binary Tree.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +265,8 @@
 			children = (
 				91824305248D7001004F796C /* conflicted */,
 				918242FE248D7001004F796C /* Divide Two Integers.swift */,
+				91BF90DE2496BC1900FE2746 /* Coins.swift */,
+				91DF616E2493103700AE11D0 /* Lowest Common Ancestor of a Binary Tree.swift */,
 				918243CB248E04EC004F796C /* Binary Tree Right Side View.swift */,
 				918242FF248D7001004F796C /* Diameter of Binary Tree.swift */,
 				91824300248D7001004F796C /* Max Consecutive Ones.swift */,
@@ -438,6 +444,7 @@
 				91824384248D701D004F796C /* Binary Tree Maximum Path Sum.swift in Sources */,
 				9182438E248D701D004F796C /* Add Two Numbers.swift in Sources */,
 				9182437C248D701D004F796C /* Merge Sorted Array.swift in Sources */,
+				91BF90DF2496BC1900FE2746 /* Coins.swift in Sources */,
 				918243BB248D701D004F796C /* Number of Substrings Containing All Three Characters 1358.swift in Sources */,
 				918243AF248D701D004F796C /* Decode Ways.swift in Sources */,
 				91824398248D701D004F796C /* Same Tree.swift in Sources */,
@@ -519,6 +526,7 @@
 				9182438C248D701D004F796C /* Permutations.swift in Sources */,
 				91824399248D701D004F796C /* Roman to Integer.swift in Sources */,
 				918243A5248D701D004F796C /* Largest Rectangle in Histogram.swift in Sources */,
+				91DF616F2493103700AE11D0 /* Lowest Common Ancestor of a Binary Tree.swift in Sources */,
 				91824388248D701D004F796C /* Plus One.swift in Sources */,
 				91824383248D701D004F796C /* ValidateBST.swift in Sources */,
 				9182439F248D701D004F796C /* Copy List with Random Pointer.swift in Sources */,

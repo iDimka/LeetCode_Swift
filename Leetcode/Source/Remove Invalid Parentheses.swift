@@ -63,19 +63,19 @@ class Remove_Invalid_Parentheses: NSObject {
 
     var candidate = ""
 
-    recurse(s, index: 0, left: 0, right: 0, removedCount: 0, candidate: &candidate)
+    recurse(s, index: s.startIndex, open: 0, close: 0, removedCount: 0, candidate: &candidate)
 
     return Array(result)
   }
 
   private func recurse(_ s: String,
-                       index: Int,
-                       left: Int,
-                       right: Int,
+                       index: String.Index,
+                       open: Int,
+                       close: Int,
                        removedCount: Int,
                        candidate: inout String) {
-    if index == s.count  {
-      guard right == left else { return }
+    if index == s.endIndex  {
+      guard close == open else { return }
       guard removedCount <= minimumRemoved else { return }
 
       if removedCount < minimumRemoved {
@@ -85,20 +85,20 @@ class Remove_Invalid_Parentheses: NSObject {
       }
       result.insert(candidate)
     } else {
-      let currentChar = s[s.index(s.startIndex, offsetBy: index)]
+      let currentChar = s[index]
 
       if currentChar != "(" && currentChar != ")" {
         candidate.append(currentChar)
-        recurse(s, index: index + 1, left: left, right: right, removedCount: removedCount, candidate: &candidate)
+        recurse(s, index: s.index(after:index), open: open, close: close, removedCount: removedCount, candidate: &candidate)
         candidate.removeLast()
       } else {
-        recurse(s, index: index + 1, left: left, right: right, removedCount: removedCount + 1, candidate: &candidate)
+        recurse(s, index: s.index(after:index), open: open, close: close, removedCount: removedCount + 1, candidate: &candidate)
         candidate.append(currentChar)
 
         if currentChar == "(" {
-          recurse(s, index: index + 1, left: left + 1, right: right, removedCount: removedCount, candidate: &candidate)
-        } else if left > right {
-          recurse(s, index: index + 1, left: left, right: right + 1, removedCount: removedCount, candidate: &candidate)
+          recurse(s, index: s.index(after:index), open: open + 1, close: close, removedCount: removedCount, candidate: &candidate)
+        } else if open > close {
+          recurse(s, index: s.index(after:index), open: open, close: close + 1, removedCount: removedCount, candidate: &candidate)
         }
         candidate.removeLast()
       }

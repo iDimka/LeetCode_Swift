@@ -48,37 +48,37 @@ class Longest_Valid_Parentheses: NSObject {
   }
 
   func longestValidParentheses(_ s: String) -> Int {
-    var left = 0
-    var right = 0
+    var open = 0
+    var close = 0
     var maxCount = 0
 
     for char in s {
       if char == "(" {
-        left += 1
+        open += 1
       } else {
-        right += 1
+        close += 1
       }
 
-      if left == right {
-        maxCount = max(maxCount, left + right)//; print("max: \(maxCount), \(left):\(right)")
-      } else if right > left {
-        left = 0; right = 0
+      if open == close {
+        maxCount = max(maxCount, open + close)//; print("max: \(maxCount), \(left):\(right)")
+      } else if close > open {
+        open = 0; close = 0
       }
     }
     print("---")
-    left = 0; right = 0
+    open = 0; close = 0
 
     for char in s.reversed() {//print(char)
       if char == "(" {
-        left += 1//; print("left \(left):\(right)")
+        open += 1//; print("left \(left):\(right)")
       } else {
-        right += 1//; print("right \(left):\(right)")
+        close += 1//; print("right \(left):\(right)")
       }
 
-      if left == right {
-        maxCount = max(maxCount, left + right)//; print("rev max: \(maxCount), \(left):\(right)")
-      } else if left > right{
-        left = 0; right = 0
+      if open == close {
+        maxCount = max(maxCount, open + close)//; print("rev max: \(maxCount), \(left):\(right)")
+      } else if open > close{
+        open = 0; close = 0
       }
     }
 

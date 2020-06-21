@@ -8,8 +8,14 @@
 
 import Foundation
 
-Flatten_Binary_Tree_to_Linked_List.test()
+Subsets.test() // work through
 
+/*
+ to study again
+ 4.8 s4
+ 4.9
+ 4.12 s2
+ */
 extension String {
   func charAt(_ index: Int) -> Character? {
     guard index < count else { return nil }
