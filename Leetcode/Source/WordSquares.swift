@@ -72,12 +72,14 @@ class WordSquares {
   var workArray: [String] = []
   var result: [[String]] = []
   var size = 0
+  var prefixMap: [Substring: [String]] = [:]
 
   func wordSquares(_ words: [String]) -> [[String]] {
     guard words.count > 0 else { return [] }
     guard words.count > 1 else { return words[0].count == 1 ? [words] : [] }
 
     size = words[0].count
+    prefixMap = buildPrefixMap(from: words)
 
     for word in words {
       var words = words
@@ -88,11 +90,24 @@ class WordSquares {
     return result
   }
 
+  private func buildPrefixMap(from words: [String]) -> [Substring: [String]] {
+    var result = [Substring: [String]]()
+
+    for word in words {
+      for index in word.indices {
+        result[word[...index], default: []] += [word]
+      }
+    }
+
+    return result
+  }
+
   private func tryOption(in words:inout [String], limit: Int) {
     guard workArray.count < size else { return result.append(workArray) }
 
     let prefix = workArray.map { String($0[$0.index($0.startIndex, offsetBy: limit)]) }.joined()
-    let list = words.filter { $0.hasPrefix(prefix) }
+//    let list = words.filter { $0.hasPrefix(prefix) } // TIME LIMIT EXCEDED
+    let list = prefixMap[Substring(prefix), default: []]
 
     outerLoop: for candidate in list {
       workArray.append(candidate)
