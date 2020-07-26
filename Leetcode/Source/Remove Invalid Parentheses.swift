@@ -90,7 +90,6 @@ class Remove_Invalid_Parentheses: NSObject {
       if currentChar != "(" && currentChar != ")" {
         candidate.append(currentChar)
         recurse(s, index: s.index(after:index), open: open, close: close, removedCount: removedCount, candidate: &candidate)
-        candidate.removeLast()
       } else {
         recurse(s, index: s.index(after:index), open: open, close: close, removedCount: removedCount + 1, candidate: &candidate)
         candidate.append(currentChar)
@@ -100,8 +99,9 @@ class Remove_Invalid_Parentheses: NSObject {
         } else if open > close {
           recurse(s, index: s.index(after:index), open: open, close: close + 1, removedCount: removedCount, candidate: &candidate)
         }
-        candidate.removeLast()
       }
+
+      candidate.removeLast()
     }
   }
 

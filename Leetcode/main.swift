@@ -8,7 +8,7 @@
 
 import Foundation
 
-Subsets.test() // work through
+WordSquares.test() // work through
 
 /*
  to study again

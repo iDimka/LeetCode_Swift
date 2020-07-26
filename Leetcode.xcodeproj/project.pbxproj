@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9121CB7524CCAA4C00EC53F0 /* WordSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9121CB7424CCAA4C00EC53F0 /* WordSquares.swift */; };
 		918242F7248D6FD3004F796C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918242F6248D6FD3004F796C /* main.swift */; };
 		91824365248D701D004F796C /* Divide Two Integers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918242FE248D7001004F796C /* Divide Two Integers.swift */; };
 		91824366248D701D004F796C /* Diameter of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918242FF248D7001004F796C /* Diameter of Binary Tree.swift */; };
@@ -117,6 +118,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9121CB7424CCAA4C00EC53F0 /* WordSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSquares.swift; sourceTree = "<group>"; };
 		918242F3248D6FD3004F796C /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		918242F6248D6FD3004F796C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		918242FE248D7001004F796C /* Divide Two Integers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Divide Two Integers.swift"; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 			children = (
 				91824305248D7001004F796C /* conflicted */,
 				918242FE248D7001004F796C /* Divide Two Integers.swift */,
+				9121CB7424CCAA4C00EC53F0 /* WordSquares.swift */,
 				91BF90DE2496BC1900FE2746 /* Coins.swift */,
 				91DF616E2493103700AE11D0 /* Lowest Common Ancestor of a Binary Tree.swift */,
 				918243CB248E04EC004F796C /* Binary Tree Right Side View.swift */,
@@ -512,6 +515,7 @@
 				918243A1248D701D004F796C /* Valid Palindrome.swift in Sources */,
 				9182437D248D701D004F796C /* Regular Expression Matching.swift in Sources */,
 				9182438B248D701D004F796C /* SearchSubstring.swift in Sources */,
+				9121CB7524CCAA4C00EC53F0 /* WordSquares.swift in Sources */,
 				918243B7248D701D004F796C /* Robot Room Cleaner.swift in Sources */,
 				918243B2248D701D004F796C /* Add and Search Word - Data structure design 211.swift in Sources */,
 				9182436F248D701D004F796C /* Subsets.swift in Sources */,
