@@ -36,8 +36,23 @@ class Longest_Substring_Without_Repeating_Characters {
         
         return maxValue
     }
+
+  func lengthOfLongestSubstring(_ s: String) -> Int {
+      var dict = [Character: Int]()
+      var result = 0
+      var start = 0
+      for (index, char) in s.enumerated() {
+          if let prevIndex = dict[char] {
+              start = max(start, prevIndex + 1)
+          }
+          dict[char] = index
+          result = max(result, index - start + 1)
+      }
+
+      return result
+  }
     
     class func test() {
-        print(lengthOfLongestSubstring("pwwkew"))
+      print(Longest_Substring_Without_Repeating_Characters().lengthOfLongestSubstring("abba"))
     }
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-WordSquares.test() // work through
+AmazonVideo.test() // work through
 
 /*
  to study again
