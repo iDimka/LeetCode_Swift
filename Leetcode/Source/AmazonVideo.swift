@@ -8,6 +8,10 @@
 
 import Cocoa
 
+/*
+Problem descibed https://gist.github.com/P-A-R-U-S/4e557008bfb616d636c3c88e849ab457
+*/
+
 class AmazonVideo: NSObject {
   func lengthEachScene(inputList:[Character]) -> [Int]
   {

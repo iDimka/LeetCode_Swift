@@ -13,6 +13,7 @@
 		9121CB7724D119BC00EC53F0 /* Android Unlock Patterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9121CB7624D119BB00EC53F0 /* Android Unlock Patterns.swift */; };
 		916077D924F60D37008051DF /* 4sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916077D824F60D37008051DF /* 4sum.swift */; };
 		917FEBDD24FC59EA00BBE698 /* AmazonVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917FEBDC24FC59EA00BBE698 /* AmazonVideo.swift */; };
+		917FF42724FDC2F600BBE698 /* Reverse Linked List II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917FF42624FDC2F600BBE698 /* Reverse Linked List II.swift */; };
 		918242F7248D6FD3004F796C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918242F6248D6FD3004F796C /* main.swift */; };
 		91824365248D701D004F796C /* Divide Two Integers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918242FE248D7001004F796C /* Divide Two Integers.swift */; };
 		91824366248D701D004F796C /* Diameter of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918242FF248D7001004F796C /* Diameter of Binary Tree.swift */; };
@@ -106,6 +107,7 @@
 		918243BF248D701D004F796C /* Pancake Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824363248D7002004F796C /* Pancake Sorting.swift */; };
 		918243C0248D701D004F796C /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824364248D7002004F796C /* BFS.swift */; };
 		918243CC248E04EC004F796C /* Binary Tree Right Side View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918243CB248E04EC004F796C /* Binary Tree Right Side View.swift */; };
+		91B6FFFF2504280700EB5BD7 /* 675.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6FFFE2504280700EB5BD7 /* 675.swift */; };
 		91BF90DF2496BC1900FE2746 /* Coins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF90DE2496BC1900FE2746 /* Coins.swift */; };
 		91DF616F2493103700AE11D0 /* Lowest Common Ancestor of a Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF616E2493103700AE11D0 /* Lowest Common Ancestor of a Binary Tree.swift */; };
 /* End PBXBuildFile section */
@@ -129,6 +131,7 @@
 		9121CB7624D119BB00EC53F0 /* Android Unlock Patterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Android Unlock Patterns.swift"; sourceTree = "<group>"; };
 		916077D824F60D37008051DF /* 4sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4sum.swift; sourceTree = "<group>"; };
 		917FEBDC24FC59EA00BBE698 /* AmazonVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonVideo.swift; sourceTree = "<group>"; };
+		917FF42624FDC2F600BBE698 /* Reverse Linked List II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reverse Linked List II.swift"; sourceTree = "<group>"; };
 		918242F3248D6FD3004F796C /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		918242F6248D6FD3004F796C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		918242FE248D7001004F796C /* Divide Two Integers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Divide Two Integers.swift"; sourceTree = "<group>"; };
@@ -232,6 +235,7 @@
 		91824363248D7002004F796C /* Pancake Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pancake Sorting.swift"; sourceTree = "<group>"; };
 		91824364248D7002004F796C /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
 		918243CB248E04EC004F796C /* Binary Tree Right Side View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Right Side View.swift"; sourceTree = "<group>"; };
+		91B6FFFE2504280700EB5BD7 /* 675.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 675.swift; sourceTree = "<group>"; };
 		91BF90DE2496BC1900FE2746 /* Coins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coins.swift; sourceTree = "<group>"; };
 		91DF616E2493103700AE11D0 /* Lowest Common Ancestor of a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lowest Common Ancestor of a Binary Tree.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -277,6 +281,8 @@
 			children = (
 				91824305248D7001004F796C /* conflicted */,
 				918242FE248D7001004F796C /* Divide Two Integers.swift */,
+				917FF42624FDC2F600BBE698 /* Reverse Linked List II.swift */,
+				91B6FFFE2504280700EB5BD7 /* 675.swift */,
 				91216AF424FB465100A18037 /* Cut Off Trees for Golf Event 675.swift */,
 				91216AF224FAFF3A00A18037 /* Reverse Nodes in k-Group.swift */,
 				917FEBDC24FC59EA00BBE698 /* AmazonVideo.swift */,
@@ -465,6 +471,7 @@
 				9182437C248D701D004F796C /* Merge Sorted Array.swift in Sources */,
 				91BF90DF2496BC1900FE2746 /* Coins.swift in Sources */,
 				91216AF524FB465100A18037 /* Cut Off Trees for Golf Event 675.swift in Sources */,
+				91B6FFFF2504280700EB5BD7 /* 675.swift in Sources */,
 				918243BB248D701D004F796C /* Number of Substrings Containing All Three Characters 1358.swift in Sources */,
 				918243AF248D701D004F796C /* Decode Ways.swift in Sources */,
 				91824398248D701D004F796C /* Same Tree.swift in Sources */,
@@ -528,6 +535,7 @@
 				918243AA248D701D004F796C /* Arithmetic Slices 413.swift in Sources */,
 				91824372248D701D004F796C /* Intersection of Two Arrays II.swift in Sources */,
 				918242F7248D6FD3004F796C /* main.swift in Sources */,
+				917FF42724FDC2F600BBE698 /* Reverse Linked List II.swift in Sources */,
 				91824380248D701D004F796C /* Reoder List.swift in Sources */,
 				918243A9248D701D004F796C /* ReversedLinkedList.swift in Sources */,
 				918243A1248D701D004F796C /* Valid Palindrome.swift in Sources */,
