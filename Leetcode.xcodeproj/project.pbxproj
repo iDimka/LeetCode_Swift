@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		911D92142506A94A00C17E32 /* Spiral Matrix II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D92132506A94A00C17E32 /* Spiral Matrix II.swift */; };
+		911D92162506DBA400C17E32 /* Majority Element II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911D92152506DBA300C17E32 /* Majority Element II.swift */; };
 		91216AF324FAFF3A00A18037 /* Reverse Nodes in k-Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91216AF224FAFF3A00A18037 /* Reverse Nodes in k-Group.swift */; };
 		91216AF524FB465100A18037 /* Cut Off Trees for Golf Event 675.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91216AF424FB465100A18037 /* Cut Off Trees for Golf Event 675.swift */; };
 		9121CB7524CCAA4C00EC53F0 /* WordSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9121CB7424CCAA4C00EC53F0 /* WordSquares.swift */; };
@@ -128,6 +129,7 @@
 
 /* Begin PBXFileReference section */
 		911D92132506A94A00C17E32 /* Spiral Matrix II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spiral Matrix II.swift"; sourceTree = "<group>"; };
+		911D92152506DBA300C17E32 /* Majority Element II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Majority Element II.swift"; sourceTree = "<group>"; };
 		91216AF224FAFF3A00A18037 /* Reverse Nodes in k-Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reverse Nodes in k-Group.swift"; sourceTree = "<group>"; };
 		91216AF424FB465100A18037 /* Cut Off Trees for Golf Event 675.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cut Off Trees for Golf Event 675.swift"; sourceTree = "<group>"; };
 		9121CB7424CCAA4C00EC53F0 /* WordSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSquares.swift; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 				91B6FFFE2504280700EB5BD7 /* 675.swift */,
 				91B60000250566E100EB5BD7 /* Spiral Matrix.swift */,
 				911D92132506A94A00C17E32 /* Spiral Matrix II.swift */,
+				911D92152506DBA300C17E32 /* Majority Element II.swift */,
 				91216AF424FB465100A18037 /* Cut Off Trees for Golf Event 675.swift */,
 				91216AF224FAFF3A00A18037 /* Reverse Nodes in k-Group.swift */,
 				917FEBDC24FC59EA00BBE698 /* AmazonVideo.swift */,
@@ -539,6 +542,7 @@
 				9182439B248D701D004F796C /* Sort Colors.swift in Sources */,
 				91B60001250566E200EB5BD7 /* Spiral Matrix.swift in Sources */,
 				9182438D248D701D004F796C /* N Queens II.swift in Sources */,
+				911D92162506DBA400C17E32 /* Majority Element II.swift in Sources */,
 				91824397248D701D004F796C /* One Edit Distance.swift in Sources */,
 				918243AA248D701D004F796C /* Arithmetic Slices 413.swift in Sources */,
 				91824372248D701D004F796C /* Intersection of Two Arrays II.swift in Sources */,
