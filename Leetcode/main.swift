@@ -8,7 +8,7 @@
 
 import Foundation
 
-CutOffTrees675.test() // work through
+Spiral_Matrix_II.test() // work through
 
 /*
  to study again
