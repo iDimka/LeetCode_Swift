@@ -112,6 +112,7 @@
 		918243BF248D701D004F796C /* Pancake Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824363248D7002004F796C /* Pancake Sorting.swift */; };
 		918243C0248D701D004F796C /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824364248D7002004F796C /* BFS.swift */; };
 		918243CC248E04EC004F796C /* Binary Tree Right Side View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918243CB248E04EC004F796C /* Binary Tree Right Side View.swift */; };
+		91AC06A8251C5AE40041BE3C /* License Key Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AC06A7251C5AE30041BE3C /* License Key Formatting.swift */; };
 		91B60001250566E200EB5BD7 /* Spiral Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B60000250566E100EB5BD7 /* Spiral Matrix.swift */; };
 		91B6FFFF2504280700EB5BD7 /* 675.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B6FFFE2504280700EB5BD7 /* 675.swift */; };
 		91BF90DF2496BC1900FE2746 /* Coins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BF90DE2496BC1900FE2746 /* Coins.swift */; };
@@ -246,6 +247,7 @@
 		91824363248D7002004F796C /* Pancake Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pancake Sorting.swift"; sourceTree = "<group>"; };
 		91824364248D7002004F796C /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
 		918243CB248E04EC004F796C /* Binary Tree Right Side View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Right Side View.swift"; sourceTree = "<group>"; };
+		91AC06A7251C5AE30041BE3C /* License Key Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "License Key Formatting.swift"; sourceTree = "<group>"; };
 		91B60000250566E100EB5BD7 /* Spiral Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spiral Matrix.swift"; sourceTree = "<group>"; };
 		91B6FFFE2504280700EB5BD7 /* 675.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 675.swift; sourceTree = "<group>"; };
 		91BF90DE2496BC1900FE2746 /* Coins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coins.swift; sourceTree = "<group>"; };
@@ -294,6 +296,7 @@
 				91824305248D7001004F796C /* conflicted */,
 				918242FE248D7001004F796C /* Divide Two Integers.swift */,
 				916F18D0251B15E200DB829E /* Odd Even Jump.swift */,
+				91AC06A7251C5AE30041BE3C /* License Key Formatting.swift */,
 				9162809F250C3F89005CCD63 /* Generate Parentheses.swift */,
 				91378C0A251455000079A98C /* PartitionArrayintoDisjointIntervals 915.swift */,
 				917FF42624FDC2F600BBE698 /* Reverse Linked List II.swift */,
@@ -528,6 +531,7 @@
 				918243A6248D701D004F796C /* K-th Symbol in Grammar .swift in Sources */,
 				918243C0248D701D004F796C /* BFS.swift in Sources */,
 				918243B0248D701D004F796C /* Best Time to Buy and Sell Stock.swift in Sources */,
+				91AC06A8251C5AE40041BE3C /* License Key Formatting.swift in Sources */,
 				918243BC248D701D004F796C /* Remove Invalid Parentheses.swift in Sources */,
 				918243AE248D701D004F796C /* Binary Tree Vertical Order Traversal.swift in Sources */,
 				91824390248D701D004F796C /* 3Sum.swift in Sources */,
