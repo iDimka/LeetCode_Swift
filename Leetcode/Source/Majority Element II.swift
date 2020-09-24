@@ -8,7 +8,20 @@
 
 import Cocoa
 
-class Majority_Element_II: NSObject {
+class Majority_Element: NSObject {
+  func isMajorityElement(_ nums: [Int], _ target: Int) -> Bool {
+    return nums.map { $0 == target ? 1 : 0 }
+      .reduce(0, +) > nums.count / 2
+  }
+
+  func isMajorityElement2(_ nums: [Int], _ target: Int) -> Bool {
+      var count = 0
+      for num in nums where num == target {
+          count += 1
+      }
+      return count > (nums.count / 2)
+  }
+
   func majorityElement(_ nums: [Int]) -> Int {
     guard nums.isEmpty == false else { return -1 }
 
@@ -68,7 +81,7 @@ class Majority_Element_II: NSObject {
     }
 
     var result: [Int] = []
-    
+
     if let cand = candidate1, count1 > nums.count / 3 {
       result.append(cand)
     }

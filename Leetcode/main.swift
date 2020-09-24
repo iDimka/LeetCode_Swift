@@ -8,7 +8,7 @@
 
 import Foundation
 
-Spiral_Matrix_II.test() // work through
+Odd_Even_Jump.test() // work through
 
 /*
  to study again

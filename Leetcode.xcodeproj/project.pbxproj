@@ -13,7 +13,10 @@
 		91216AF524FB465100A18037 /* Cut Off Trees for Golf Event 675.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91216AF424FB465100A18037 /* Cut Off Trees for Golf Event 675.swift */; };
 		9121CB7524CCAA4C00EC53F0 /* WordSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9121CB7424CCAA4C00EC53F0 /* WordSquares.swift */; };
 		9121CB7724D119BC00EC53F0 /* Android Unlock Patterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9121CB7624D119BB00EC53F0 /* Android Unlock Patterns.swift */; };
+		91378C0B251455000079A98C /* PartitionArrayintoDisjointIntervals 915.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91378C0A251455000079A98C /* PartitionArrayintoDisjointIntervals 915.swift */; };
 		916077D924F60D37008051DF /* 4sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916077D824F60D37008051DF /* 4sum.swift */; };
+		916280A0250C3F89005CCD63 /* Generate Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9162809F250C3F89005CCD63 /* Generate Parentheses.swift */; };
+		916F18D1251B15E300DB829E /* Odd Even Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916F18D0251B15E200DB829E /* Odd Even Jump.swift */; };
 		917FEBDD24FC59EA00BBE698 /* AmazonVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917FEBDC24FC59EA00BBE698 /* AmazonVideo.swift */; };
 		917FF42724FDC2F600BBE698 /* Reverse Linked List II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917FF42624FDC2F600BBE698 /* Reverse Linked List II.swift */; };
 		918242F7248D6FD3004F796C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918242F6248D6FD3004F796C /* main.swift */; };
@@ -134,7 +137,10 @@
 		91216AF424FB465100A18037 /* Cut Off Trees for Golf Event 675.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cut Off Trees for Golf Event 675.swift"; sourceTree = "<group>"; };
 		9121CB7424CCAA4C00EC53F0 /* WordSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSquares.swift; sourceTree = "<group>"; };
 		9121CB7624D119BB00EC53F0 /* Android Unlock Patterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Android Unlock Patterns.swift"; sourceTree = "<group>"; };
+		91378C0A251455000079A98C /* PartitionArrayintoDisjointIntervals 915.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PartitionArrayintoDisjointIntervals 915.swift"; sourceTree = "<group>"; };
 		916077D824F60D37008051DF /* 4sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4sum.swift; sourceTree = "<group>"; };
+		9162809F250C3F89005CCD63 /* Generate Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generate Parentheses.swift"; sourceTree = "<group>"; };
+		916F18D0251B15E200DB829E /* Odd Even Jump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Odd Even Jump.swift"; sourceTree = "<group>"; };
 		917FEBDC24FC59EA00BBE698 /* AmazonVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonVideo.swift; sourceTree = "<group>"; };
 		917FF42624FDC2F600BBE698 /* Reverse Linked List II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reverse Linked List II.swift"; sourceTree = "<group>"; };
 		918242F3248D6FD3004F796C /* Leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -287,6 +293,9 @@
 			children = (
 				91824305248D7001004F796C /* conflicted */,
 				918242FE248D7001004F796C /* Divide Two Integers.swift */,
+				916F18D0251B15E200DB829E /* Odd Even Jump.swift */,
+				9162809F250C3F89005CCD63 /* Generate Parentheses.swift */,
+				91378C0A251455000079A98C /* PartitionArrayintoDisjointIntervals 915.swift */,
 				917FF42624FDC2F600BBE698 /* Reverse Linked List II.swift */,
 				91B6FFFE2504280700EB5BD7 /* 675.swift */,
 				91B60000250566E100EB5BD7 /* Spiral Matrix.swift */,
@@ -481,6 +490,7 @@
 				91BF90DF2496BC1900FE2746 /* Coins.swift in Sources */,
 				91216AF524FB465100A18037 /* Cut Off Trees for Golf Event 675.swift in Sources */,
 				91B6FFFF2504280700EB5BD7 /* 675.swift in Sources */,
+				916280A0250C3F89005CCD63 /* Generate Parentheses.swift in Sources */,
 				918243BB248D701D004F796C /* Number of Substrings Containing All Three Characters 1358.swift in Sources */,
 				918243AF248D701D004F796C /* Decode Ways.swift in Sources */,
 				91824398248D701D004F796C /* Same Tree.swift in Sources */,
@@ -505,6 +515,7 @@
 				91824373248D701D004F796C /* Fruit Into Baskets.swift in Sources */,
 				918243A7248D701D004F796C /* Longest Valid Parentheses.swift in Sources */,
 				918243CC248E04EC004F796C /* Binary Tree Right Side View.swift in Sources */,
+				916F18D1251B15E300DB829E /* Odd Even Jump.swift in Sources */,
 				918243BE248D701D004F796C /* QuickSort.swift in Sources */,
 				91824389248D701D004F796C /* Product of Array Except Self.swift in Sources */,
 				91824393248D701D004F796C /* atoi.swift in Sources */,
@@ -559,6 +570,7 @@
 				9182436F248D701D004F796C /* Subsets.swift in Sources */,
 				91824385248D701D004F796C /* 3Sum Closest.swift in Sources */,
 				9182436E248D701D004F796C /* BST.swift in Sources */,
+				91378C0B251455000079A98C /* PartitionArrayintoDisjointIntervals 915.swift in Sources */,
 				91824379248D701D004F796C /* No17.letter-combinations-of-a-phone-number.swift in Sources */,
 				9182436A248D701D004F796C /* Rotate Image.swift in Sources */,
 				918243B8248D701D004F796C /* Search a 2D Matrix II.swift in Sources */,
