@@ -57,6 +57,23 @@ import Cocoa
 
  */
 class Fruit_Into_Baskets_904: NSObject {
+  func totalFruitShort(_ tree: [Int]) -> Int {
+      var tail = 0
+      var maxCount = 0
+      var cache = [Int: Int]()
+
+      for (index, frut) in tree.enumerated() {
+          cache[frut] = index
+          if cache.count > 2 , let (_frut, _index) = cache.min(by: { (left, right) in left.1 < right.1 })   {
+              tail = _index + 1
+              cache[_frut] = nil
+          }
+          maxCount = max(maxCount, index - tail + 1)
+      }
+
+      return maxCount
+  }
+
   func totalFruit(_ tree: [Int]) -> Int {
       var maxFruts = 0
       var outIndex = 0

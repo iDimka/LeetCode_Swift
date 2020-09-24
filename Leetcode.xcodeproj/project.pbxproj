@@ -34,7 +34,6 @@
 		91824370248D701D004F796C /* Is Graph Bipartite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824314248D7002004F796C /* Is Graph Bipartite.swift */; };
 		91824371248D701D004F796C /* Continuous Subarray Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824315248D7002004F796C /* Continuous Subarray Sum.swift */; };
 		91824372248D701D004F796C /* Intersection of Two Arrays II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824316248D7002004F796C /* Intersection of Two Arrays II.swift */; };
-		91824373248D701D004F796C /* Fruit Into Baskets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824317248D7002004F796C /* Fruit Into Baskets.swift */; };
 		91824374248D701D004F796C /* Shortest Distance from All Buildings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824318248D7002004F796C /* Shortest Distance from All Buildings.swift */; };
 		91824375248D701D004F796C /* Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91824319248D7002004F796C /* Maximum Subarray.swift */; };
 		91824376248D701D004F796C /* Move Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9182431A248D7002004F796C /* Move Zeroes.swift */; };
@@ -169,7 +168,6 @@
 		91824314248D7002004F796C /* Is Graph Bipartite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Is Graph Bipartite.swift"; sourceTree = "<group>"; };
 		91824315248D7002004F796C /* Continuous Subarray Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Continuous Subarray Sum.swift"; sourceTree = "<group>"; };
 		91824316248D7002004F796C /* Intersection of Two Arrays II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Intersection of Two Arrays II.swift"; sourceTree = "<group>"; };
-		91824317248D7002004F796C /* Fruit Into Baskets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fruit Into Baskets.swift"; sourceTree = "<group>"; };
 		91824318248D7002004F796C /* Shortest Distance from All Buildings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shortest Distance from All Buildings.swift"; sourceTree = "<group>"; };
 		91824319248D7002004F796C /* Maximum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Subarray.swift"; sourceTree = "<group>"; };
 		9182431A248D7002004F796C /* Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Move Zeroes.swift"; sourceTree = "<group>"; };
@@ -326,7 +324,6 @@
 				91824314248D7002004F796C /* Is Graph Bipartite.swift */,
 				91824315248D7002004F796C /* Continuous Subarray Sum.swift */,
 				91824316248D7002004F796C /* Intersection of Two Arrays II.swift */,
-				91824317248D7002004F796C /* Fruit Into Baskets.swift */,
 				91824318248D7002004F796C /* Shortest Distance from All Buildings.swift */,
 				91824319248D7002004F796C /* Maximum Subarray.swift */,
 				9182431A248D7002004F796C /* Move Zeroes.swift */,
@@ -515,7 +512,6 @@
 				91824392248D701D004F796C /* MaximumDepthOfBinaryTree .swift in Sources */,
 				9182439D248D701D004F796C /* Pow(x, n).swift in Sources */,
 				91824369248D701D004F796C /* Reorder List.swift in Sources */,
-				91824373248D701D004F796C /* Fruit Into Baskets.swift in Sources */,
 				918243A7248D701D004F796C /* Longest Valid Parentheses.swift in Sources */,
 				918243CC248E04EC004F796C /* Binary Tree Right Side View.swift in Sources */,
 				916F18D1251B15E300DB829E /* Odd Even Jump.swift in Sources */,
